@@ -1,0 +1,40 @@
+class AppConstants {
+  static const signIn = 'Sign in';
+  static const signUp = 'Sign Up';
+  static const username = 'Username';
+  static const email = 'Email';
+  static const password = 'Password';
+  static const confirmPassword = 'Confirm Password';
+  static const forgotPassword = 'Forgot Password';
+  static const newToHere = 'New to here? ';
+  static const pleaseEnterUsername = 'Please Enter Username';
+  static const pleaseEnterEmail = 'Please Enter Email';
+  static const pleaseEnterValidEmail = 'Please Enter valid Email';
+  static const pleaseEnterPassword = 'Please Enter password';
+  static const pleaseEnterConfirmPassword = 'Please Enter Confirm password';
+  static const pleaseEnterTodoDescription = 'Please Enter Todo Description';
+  static const confirmPasswordNotMatchWithPassword =
+      'Confirm password not match with Password';
+  static const welcomeText = 'Welcome to Simple Todo';
+  static const smileEmoji = '😊';
+  static const failure = 'Failure';
+  static const success = 'Success';
+  static const signinFailText = 'Please Check Username name or password';
+  static const signOut = 'Sign Out';
+  static const cancel = 'Cancel';
+  static const confirm = 'Confirm';
+  static const addTodo = 'Add Todo';
+  static const goodAfternoon = 'Good Afternoon, ';
+  static const goodMorning = 'Good Morning, ';
+  static const goodEvening = 'Good Evening, ';
+  static const createTodo = 'Create Todo';
+  static const todoAlreadyExist = 'Todo Already Exist';
+  static const warning = 'Warning';
+  static const todoDescription = 'Todo Description';
+  static const signOutAlertMsg = 'Are you sure you want sign out ?';
+  static const noTodoFind = 'No Todo Available';
+  static const signinSuccessText1 = 'Hello ';
+  static const signinSuccessText2 = ', Welcome to Todo App Home Page';
+  static const somethingWentWrong = 'Something Went Wrong';
+  static const noInternet = 'No Internet';
+}
