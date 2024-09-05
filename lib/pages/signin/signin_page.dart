@@ -97,6 +97,20 @@ class SigninPage extends GetView<SigninController> {
                 ),
               ),
               UiHelper.smallVerticalSpace(),
+              Text.rich(
+                TextSpan(
+                  text: AppConstants.newToHere,
+                  style: const TextStyle().medium,
+                  children: <InlineSpan>[
+                    TextSpan(
+                      text: AppConstants.signUp,
+                      style: const TextStyle().bold,
+                      recognizer: TapGestureRecognizer()
+                        ..onTap = () => controller.onSignupTap(),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
