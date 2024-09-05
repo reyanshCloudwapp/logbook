@@ -95,7 +95,16 @@ class SigninPage extends GetView<SigninController> {
                     ),
                   ],
                 ),
-              )
+              ),
+              UiHelper.smallVerticalSpace(),
+              SizedBox(
+                width: Get.width * .9,
+                child: AppButton(
+                  onPressed: () => controller.onSigninTap(),
+                  name: AppConstants.signIn,
+                  btnRadius: 20,
+                ),
+              ),
             ],
           ),
         ),
