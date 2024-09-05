@@ -95,7 +95,8 @@ class SigninPage extends GetView<SigninController> {
                     ),
                   ],
                 ),
-              )
+              ),
+              UiHelper.smallVerticalSpace(),
             ],
           ),
         ),
